@@ -111,3 +111,28 @@ A skill provides instructions; it does not technically enforce agent behavior. R
 ## License
 
 This project is released under the [MIT License](LICENSE).
+
+## Repository structure
+
+```text
+one-step-work/
+├── SKILL.md
+├── README.md
+├── LICENSE
+├── .gitignore
+├── references/
+│   └── examples.md
+└── scripts/
+    └── validate_skill.py
+```
+
+`references/examples.md` provides short interaction patterns that clarify how
+to apply the workflow. `scripts/validate_skill.py` checks the skill's
+frontmatter, required sections, and supporting files. It uses only Python's
+standard library.
+
+Run the validator from the repository root:
+
+```bash
+python scripts/validate_skill.py
+```

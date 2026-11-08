@@ -1,12 +1,15 @@
 ---
 name: one-step-work
 description: >-
-  Use when a user asks you to perform, create, edit, write, research,
-  analyze, plan, organize, or troubleshoot a task or project of any size
-  or type. Work collaboratively in meaningful steps, explain each result,
-  and pause for the user's guidance before starting the next independent
-  stage. Suitable for both simple requests and complex multi-stage work.
+  Guide an agent to complete practical tasks collaboratively, one meaningful
+  step at a time, reporting each result and waiting for direction before the
+  next independent stage. Use for writing, research, data, documents, design,
+  planning, software, organization, and troubleshooting when the user wants an
+  interactive, reviewable workflow.
 license: MIT
+compatibility: Works with agents that support the Agent Skills specification.
+metadata:
+  version: "1.0.0"
 ---
 
 # One Step Work
@@ -139,3 +142,8 @@ Before reporting a step as complete, check:
 
 Be progressive, not slow. Be interactive, not interruptive. Deliver
 understandable results while keeping the user in control.
+
+## Examples
+
+For concrete patterns covering simple requests, multi-stage work, and changes
+in user direction, see [references/examples.md](references/examples.md).
